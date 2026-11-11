@@ -3,11 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mingxuan Li | University of Oxford</title>
-<meta name="description" content="Mingxuan Li is a DPhil candidate in Area Studies (China) at the University of Oxford, researching pregnancy, care, and everyday health practices in contemporary China.">
+<title>Mingxuan Li 李明璇 | University of Oxford</title>
+<meta name="description" content="Mingxuan Li (李明璇) is a final-year PhD researcher in Area Studies at the University of Oxford, researching reproductive health, the dynamics of care, and pregnancy-related health care in China.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&text=%E6%9D%8E%E6%98%8E%E7%92%87&display=swap">
 <style>
   :root { --accent: #1d5c6b; --ink: #1c1c1c; --muted: #5a5a5a; --rule: #e6e3dc; }
   * { box-sizing: border-box; }
@@ -21,7 +22,11 @@
   .links { display: flex; flex-wrap: wrap; gap: 4px 24px; font-size: 15px; }
   .links a { color: #3d3d3d; text-decoration: none; padding: 10px 0; }
   .links a:hover { color: var(--accent); }
-  .hero { padding: 72px 0 64px; }
+  .hero { padding: 72px 0 64px; display: flex; flex-wrap: wrap; align-items: center; gap: 40px 64px; }
+  .hero-text { flex: 999 1 460px; min-width: 0; }
+  .portrait { flex: 0 0 220px; width: 220px; height: 275px; object-fit: cover; border-radius: 4px; display: block; }
+  .zh { display: block; margin-top: 10px; font-family: 'Noto Serif SC', 'Songti SC', 'SimSun', serif; font-weight: 500; font-size: 0.5em; letter-spacing: 0.08em; color: #3d3d3d; }
+  .pronouns { margin: 0 0 20px; font-size: 15px; color: var(--muted); }
   .eyebrow { margin: 0 0 16px; font-size: 14px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
   h1 { margin: 0 0 20px; font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: clamp(40px, 7vw, 56px); line-height: 1.1; color: #141414; }
   .lede { margin: 0; max-width: 600px; font-size: 20px; line-height: 1.55; color: #333; }
@@ -58,16 +63,20 @@
 
 <main id="top" class="wrap">
   <section class="hero" aria-labelledby="name">
-    <p class="eyebrow">University of Oxford · Hertford College</p>
-    <h1 id="name">Mingxuan Li</h1>
-    <p class="lede">DPhil candidate in Area Studies (China). I study pregnancy, care, and everyday health practices in contemporary China through ethnography.</p>
+    <div class="hero-text">
+      <p class="eyebrow">University of Oxford · Hertford College</p>
+      <h1 id="name">Mingxuan Li <span class="zh" lang="zh-Hans">李明璇</span></h1>
+      <p class="pronouns">she/her/hers</p>
+      <p class="lede">Final-year PhD researcher in Area Studies. I study reproductive health, the dynamics of care, and the social life of therapeutics and illness in China.</p>
+    </div>
+    <img class="portrait" src="photo.jpg" alt="Portrait of Mingxuan Li" width="220" height="275">
   </section>
 
   <section id="about" class="block" aria-labelledby="about-h">
     <h2 id="about-h">About</h2>
     <div class="body">
-      <p>I am a doctoral researcher in Area Studies (China) at Hertford College, University of Oxford, supervised by Professor Anna Lora-Wainwright. Trained in medical sociology and medical anthropology, I study how care is organised and contested during pregnancy in contemporary China.</p>
-      <p>My thesis, <em>Caring, Managing, and Controlling: Prenatal Care across Hospital, Family, and Self in Urban China</em>, draws on thirteen months of ethnographic fieldwork in Baoding with 51 pregnant women and new mothers. I am now completing the thesis and developing articles from it on intergenerational care, digital health, and the gendered labour of pregnancy.</p>
+      <p>I am a final-year PhD researcher in Area Studies at the University of Oxford, UK. My research interests include reproductive health, the dynamics of care, and the social life of therapeutics and illness. My doctoral research explores pregnancy-related health care in China, with a specific focus on how care is delivered through the collaboration of medical institutions, families, and individuals. Building on this collaborative model, I am also extending my research to chronic disease and varied healthcare contexts.</p>
+      <p>My thesis, <em>Caring, Managing, and Controlling: Prenatal Care across Hospital, Family, and Self in Urban China</em>, is supervised by Professor Anna Lora-Wainwright and draws on thirteen months of ethnographic fieldwork in Baoding with 51 pregnant women and new mothers.</p>
       <p>Before Oxford, I studied anthropology at Xiamen University and the Chinese University of Hong Kong, and completed an MA in Oral History at Columbia University.</p>
     </div>
   </section>
